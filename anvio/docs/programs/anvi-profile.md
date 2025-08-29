@@ -23,6 +23,8 @@ Alternatively, if you lack mapping data, you can add the flag `--blank-profile` 
 {{ codestart }}
 anvi-profile -c %(contigs-db)s  \
             --blank-profile
+            --output-dir my-output-directory
+            --sample-name my-sample-name
 {{ codestop }}
 
 ### Checking your BAM file: always a good idea
